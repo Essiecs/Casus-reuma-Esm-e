@@ -27,7 +27,6 @@ Omdat er nog zo veel onduidelijk is over RA is er behoeft aan een beter beeld va
 
 In dit onderzoek wordt er dan ook antwoord gegeven op de vraag: …
 
-___
 
 **Methode**
 ---
