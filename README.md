@@ -14,6 +14,7 @@ plaatsen.
 - Uitleg competentie beheren (zie voor hulpvragen het voorbeeld):
 o File (bijvoorbeeld een md file) met uitleg over Data Stewardship
 o File met uitleg over toepassing beheren met GitHu
+___
 
 **Inleiding**
 Reumatoïde Artritis (RA) is een auto-immuunziekte die 0,3-1% van de wereldbevolking krijgt. Bron 1
