@@ -39,7 +39,7 @@ De eerste stap is het indexeren van de reads, deze stap is niet noodzakelijk maa
 Tijdens het mappen worden de reads op de juiste positie in het referentiegenoom geplaatst. 
 Na het mappen wordt er een count matrix gemaakt (zie [count matrix](scripts/count%20matrix.R)), hierin staat hoeveel reads er per gen zijn geteld voor elk monster. 
 Vervolgens is er een metadata tabel gemaakt waarin staat wat de condities zijn per monster (zie [metadata](scripts/metadata.R)).
-Daarna is er een differentiële genexpressie analyse uitgevoerd met DESeq2 om te bepalen of de genexpressie statistisch significant verschilt tussen de controlegroep en de groep met RA (zie [indexeren+mappen](scripts/statistiek.R)). De resultaten hiervan zijn gevisualiseerd in een vulcano plot. Zie figuur… 
+Daarna is er een differentiële genexpressie analyse uitgevoerd met DESeq2 om te bepalen of de genexpressie statistisch significant verschilt tussen de controlegroep en de groep met RA (zie [statistiek](scripts/statistiek.R)). De resultaten hiervan zijn gevisualiseerd in een vulcano plot. Zie figuur… 
 Hierna word een GO-analyse uitgevoerd. Hiermee kan er gezien worden welke biologische processen en functies het meest afwijken in patiënten met RA. Deze informatie helpt bij het kiezen van relevante KEGG-pathways.
 Tot slot wordt de gekozen pathway gevisualiseerd.
 
