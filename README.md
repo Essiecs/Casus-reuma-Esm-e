@@ -31,3 +31,25 @@ In dit onderzoek wordt er dan ook antwoord gegeven op de vraag: …
 **Methode**
 ---
 
+In dit onderzoek wordt gebruik gemaakt van samples van 4 mensen met RA en 4 mensen zonder RA, genomen uit synoviaal weefsel (weefsel dat de binnenkant van gewrichten bekleed). De reads zijn afkomstig uit een eerder onderzoek waarin ze gesequenced hebben via RNA-seq.(bron 1)
+
+Met de (genexpressie) van deze (patiënten) kan er een pathway worden gemaakt waarin duidelijk het verschil te zien is tussen patiënten met RA en de controlegroep.
+
+De eerste stap in het proces is het indexeren van de reads, deze stap is niet noodzakelijk maar scheelt wel tijd. Vervolgens worden de reads gemapt. Tijdens het mappen worden de reads op de juiste positie in het referentiegenoom geplaatst. Zie… 
+Na het mappen wordt er een count matrix gemaakt, hierin staat hoeveel reads er per gen zijn geteld voor elk monster. zie…
+
+
+
+
+
+
+Indexeren?
+Mappen
+Count matrix
+Metadata?
+Statistiek?
+Vulcanoplot?
+…
+Go analyse
+Pathway
+
