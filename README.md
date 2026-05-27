@@ -42,7 +42,7 @@ Vervolgens is er een metadata tabel gemaakt waarin staat wat de condities zijn p
 Daarna is er een differentiële genexpressie analyse uitgevoerd met DESeq2 om te bepalen of de genexpressie statistisch significant verschilt tussen de controlegroep en de groep met RA (zie [statistiek](scripts/statistiek.R)). 
 Hierna word een GO-analyse uitgevoerd (zie [GO-analyse](scripts/GO-analyse.R)).
 Hiermee kan er gezien worden welke biologische processen en functies het meest afwijken in patiënten met RA. Deze informatie helpt bij het kiezen van relevante KEGG-pathways.
-Tot slot wordt de gekozen pathway gevisualiseerd.
+Tot slot wordt de gekozen pathway gevisualiseerd (zie [pathway](scripts/pathway.R)),.
 
 
 Bij resultaten kijken naar mgen met meeste verschil denk ik en naar pathway
