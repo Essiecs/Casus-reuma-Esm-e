@@ -47,7 +47,7 @@ Tot slot wordt de gekozen pathway gevisualiseerd (zie [pathway](scripts/pathway.
 
 Bij resultaten kijken naar mgen met meeste verschil denk ik en naar pathway
 
-___
 
 **Resultaten**
+---
 
