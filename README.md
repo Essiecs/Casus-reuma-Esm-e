@@ -35,11 +35,11 @@ In dit onderzoek wordt gebruik gemaakt van samples van 4 mensen met RA en 4 mens
 
 Met de (genexpressie) van deze (patiënten) kan er een pathway worden gemaakt waarin duidelijk het verschil te zien is tussen patiënten met RA en de controlegroep.
 
-De eerste stap in het proces is het indexeren van de reads, deze stap is niet noodzakelijk maar scheelt wel tijd. Vervolgens worden de reads gemapt (zie [indexeren+mappen](scripts/indexeren%20%2B%20mappen.R)).
+De eerste stap is het indexeren van de reads, deze stap is niet noodzakelijk maar scheelt wel tijd. Vervolgens worden de reads gemapt (zie [indexeren+mappen](scripts/indexeren%20%2B%20mappen.R)).
 Tijdens het mappen worden de reads op de juiste positie in het referentiegenoom geplaatst. 
 Na het mappen wordt er een count matrix gemaakt (zie [count matrix](scripts/count%20matrix.R)), hierin staat hoeveel reads er per gen zijn geteld voor elk monster. 
 Vervolgens is er een metadata tabel gemaakt waarin staat wat de condities zijn per monster (zie [metadata](scripts/metadata.R)).
-Daarna is er een differentiële genexpressie analyse uitgevoerd met DESeq2 om te bepalen of de genexpressie statistisch significant verschilt tussen de controlegroep en de groep met RA. Zie… . De resultaten hiervan zijn gevisualiseerd in een vulcano plot. Zie figuur…
+Daarna is er een differentiële genexpressie analyse uitgevoerd met DESeq2 om te bepalen of de genexpressie statistisch significant verschilt tussen de controlegroep en de groep met RA zie… . De resultaten hiervan zijn gevisualiseerd in een vulcano plot. Zie figuur…
 
 
 
