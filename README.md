@@ -25,7 +25,7 @@ Er is geen duidelijke oorzaak, geen uniform ziekteverloop en er bestaat momentee
 Wel zijn er behandelingen die het proces kunnen remmen (bron 3).
 Omdat er nog zo veel onduidelijk is over RA is er behoeft aan een beter beeld van deze ziekte. Dit wordt in dit onderzoek gedaan door te kijken naar het verschil in genexpressie tussen de patiënten met RA en de controlegroep. Ook wordt er gekeken naar welke pathways een belangrijke rol spelen in het proces van RA.
 
-In dit onderzoek wordt er dan ook antwoord gegeven op de vraag: …
+In dit onderzoek wordt er dan ook antwoord gegeven op de vraag: welke genen komen meer of minder tot expressie bij mensen met reumatoïde artritis, en welke metabole routes functioneren anders?
 
 
 **Methode**
@@ -39,7 +39,10 @@ De eerste stap is het indexeren van de reads, deze stap is niet noodzakelijk maa
 Tijdens het mappen worden de reads op de juiste positie in het referentiegenoom geplaatst. 
 Na het mappen wordt er een count matrix gemaakt (zie [count matrix](scripts/count%20matrix.R)), hierin staat hoeveel reads er per gen zijn geteld voor elk monster. 
 Vervolgens is er een metadata tabel gemaakt waarin staat wat de condities zijn per monster (zie [metadata](scripts/metadata.R)).
-Daarna is er een differentiële genexpressie analyse uitgevoerd met DESeq2 om te bepalen of de genexpressie statistisch significant verschilt tussen de controlegroep en de groep met RA zie… . De resultaten hiervan zijn gevisualiseerd in een vulcano plot. Zie figuur…
+Daarna is er een differentiële genexpressie analyse uitgevoerd met DESeq2 om te bepalen of de genexpressie statistisch significant verschilt tussen de controlegroep en de groep met RA zie… . De resultaten hiervan zijn gevisualiseerd in een vulcano plot. Zie figuur… 
+Hierna word een GO-analyse uitgevoerd. Hiermee kan er gezien worden welke biologische processen en functies het meest afwijken in patiënten met RA. Deze informatie helpt bij het kiezen van relevante KEGG-pathways.
+Tot slot wordt de gekozen pathway gevisualiseerd.
+
 
 
 
