@@ -35,7 +35,7 @@ In dit onderzoek wordt gebruik gemaakt van samples van 4 mensen met RA en 4 mens
 
 Met de (genexpressie) van deze (patiënten) kan er een pathway worden gemaakt waarin duidelijk het verschil te zien is tussen patiënten met RA en de controlegroep.
 
-De eerste stap in het proces is het indexeren van de reads, deze stap is niet noodzakelijk maar scheelt wel tijd. Vervolgens worden de reads gemapt. (zie[indexeren+mappen](scripts/indexeren%20%2B%20mappen.R))
+De eerste stap in het proces is het indexeren van de reads, deze stap is niet noodzakelijk maar scheelt wel tijd. Vervolgens worden de reads gemapt. (zie [indexeren+mappen](scripts/indexeren%20%2B%20mappen.R))
  Tijdens het mappen worden de reads op de juiste positie in het referentiegenoom geplaatst. 
 Na het mappen wordt er een count matrix gemaakt, hierin staat hoeveel reads er per gen zijn geteld voor elk monster. zie…
 Vervolgens is er een metadata tabel gemaakt waarin staat wat de condities zijn per monster. zie… 
