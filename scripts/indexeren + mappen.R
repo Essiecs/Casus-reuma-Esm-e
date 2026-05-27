@@ -1,4 +1,4 @@
-#juiste packages downloaden
+#juiste packages laden
 install.packages('BiocManager')
 BiocManager::install('Rsubread')
 library(Rsubread)
