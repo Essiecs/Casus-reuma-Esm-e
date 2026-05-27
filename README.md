@@ -46,14 +46,3 @@ Tot slot wordt de gekozen pathway gevisualiseerd.
 
 
 
-
-Indexeren?
-Mappen
-Count matrix
-Metadata?
-Statistiek?
-Vulcanoplot?
-…
-Go analyse
-Pathway
-
