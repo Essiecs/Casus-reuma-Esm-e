@@ -47,7 +47,6 @@ Hiermee kan er gezien worden welke biologische processen en functies het meest a
 Tot slot wordt de gekozen pathway gevisualiseerd (zie [pathway](scripts/pathway.R)), dit wordt gedaan met de package [pathview](https://academic.oup.com/bioinformatics/article/29/14/1830/232698?login=false&guestAccessKey=) (versie 1.52.0).
 
 Flowschema maken
-Juiste versienummer referentiegenoom
 Hele script er nog inzetten
 Bronnen goed toevoegen
 Conclusie schrijven 
