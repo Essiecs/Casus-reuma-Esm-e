@@ -50,8 +50,9 @@ Flowschema maken
 Pathview package er nog inzetten
 Juiste versienummer referentiegenoom
 Hele script er nog inzetten
-
-Bij resultaten kijken naar gen met meeste verschil denk ik en naar pathway
+Bronnen goed toevoegen
+Conclusie schrijven 
+Competentie schrijven
 
 
 **Resultaten**
@@ -73,23 +74,9 @@ Uit de GO-analyse bleek het immunoglobulinecomplex (antilichamen) interessant te
 
 
 
-3 kopjes voor beheren
-1 is github pagina 
-…
 
 
-Schrijven methode
-Belangrijk
-- Versienummer van packages 1 keer per package
-o Is functie in r voor
-o Kan je rechts zien in r
-- Verwijzen naar artikel van package (bron)
-- Bij gebruiken pipeline ook iets misschien
-- Referentie genoom met versienummer?
 
 
-Transcriptomics in google scholar
-
-pwaarde bespreken
 
 
