@@ -1,3 +1,7 @@
+#package inladen
+BiocManager::install("pathview")
+library(pathview)
+
 #juiste kolommen selecteren
 allt[1] <- NULL
 allt[2:5] <- NULL
