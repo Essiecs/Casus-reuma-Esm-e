@@ -31,7 +31,7 @@ In dit onderzoek wordt er dan ook antwoord gegeven op de vraag: welke genen kome
 **Methode**
 ---
 
-# Dataset
+## Dataset
 In dit onderzoek wordt gebruik gemaakt van samples van 4 mensen met RA en 4 mensen zonder RA, genomen uit synoviaal weefsel (weefsel dat de binnenkant van gewrichten bekleed). De reads zijn afkomstig uit een eerder onderzoek waarin ze gesequenced hebben via RNA-seq.(bron 1)
 
 Met de (genexpressie) van deze (patiënten) kan er een pathway worden gemaakt waarin duidelijk het verschil te zien is tussen patiënten met RA en de controlegroep.
