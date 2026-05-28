@@ -47,8 +47,9 @@ Tot slot wordt de gekozen pathway gevisualiseerd (zie [pathway](scripts/pathway.
 Flowschema maken
 Pathview package er nog inzetten
 Juiste versienummer referentiegenoom
+Hele script er nog inzetten
 
-Bij resultaten kijken naar mgen met meeste verschil denk ik en naar pathway
+Bij resultaten kijken naar gen met meeste verschil denk ik en naar pathway
 
 
 **Resultaten**
@@ -58,6 +59,11 @@ Inleiden..
 In deze tabel is te zien dat … de hoogste log2FoldChange heeft, … de laagste log2FoldChange en … de laagste p-waarde heeft
 
 In deze vulcano plot zijn de genen met rood aangegeven die een p-waarde hebben van <0,05 en een log2 fold change hebben van kleiner dan -1 en groter dan 1.
+
+In deze staafdiagram is te zien welke go term de kleinste verhouding heeft van …/…. Dit geeft aan dat in die categorie veel genen significant verschillend tot expressie komen in patiënten met RA in vergelijking met de controlegroep, in verhouding tot de hoeveelheid genen die in die categorie zitten. Dit geeft een goede richting aan voor het kiezen van een interessante pathway. 
+Uit de GO-analyse bleek het immunoglobulinecomplex (antilichamen) interessant te zijn, wat wijst op verhoogde antistof- en Bcelactiviteit. Omdat Bcellen hiervoor afhankelijk zijn van Thelpercellen, en die weer geactiveerd worden via antigeenpresentatie, is gekozen voor de pathway ‘antigen processing and presentation’. Deze pathway is hier te zien:…
+
+
 
 
 
