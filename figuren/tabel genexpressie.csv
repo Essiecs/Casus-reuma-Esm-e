@@ -1,4 +1,4 @@
-;;;;;;;
+﻿;;;;;;;
 ;Gen ;baseMean;log2FoldChange;lfcSE;stat;pvalue;padj
 Hoogste log2FoldChange;IGHV3-53;358,2872;11,4252;1,27637;8,95127;3,51404E-19;2,06078E-16
 Laagste log2FoldChange;MXRA7P1;1886,07382;-12,7807;2,140854;-5,96993;2,37358E-09;1,27910E-07
