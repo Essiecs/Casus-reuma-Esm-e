@@ -35,9 +35,9 @@ In dit onderzoek wordt gebruik gemaakt van samples van 4 mensen met RA en 4 mens
 
 Met de (genexpressie) van deze (patiënten) kan er een pathway worden gemaakt waarin duidelijk het verschil te zien is tussen patiënten met RA en de controlegroep.
 
-De eerste stap is het indexeren van de reads, deze stap is niet noodzakelijk maar scheelt wel tijd. Vervolgens worden de reads gemapt (zie [indexeren+mappen](scripts/indexeren%20%2B%20mappen.R)), hierbij is  gebruik gemaakt van de [Rsubread](https://academic.oup.com/nar/article/47/8/e47/5345150?luicode=10000011&lfid=231522type%3d1%26t%3d10%26q%3d%23bioinfo%23&u=https%3a%2f%2facademic.oup.com%2fnar%2farticle%2f47%2f8%2fe47%2f5345150&login=false) package (versie 2.26.0).
+De eerste stap is het indexeren van de reads, deze stap is niet noodzakelijk maar scheelt wel tijd. Vervolgens worden de reads gemapt met [Rsubread](https://academic.oup.com/nar/article/47/8/e47/5345150?luicode=10000011&lfid=231522type%3d1%26t%3d10%26q%3d%23bioinfo%23&u=https%3a%2f%2facademic.oup.com%2fnar%2farticle%2f47%2f8%2fe47%2f5345150&login=false) package (versie 2.26.0)(zie [indexeren+mappen](scripts/indexeren%20%2B%20mappen.R)).
 Tijdens het mappen worden de reads op de juiste positie in het referentiegenoom geplaatst. 
-Na het mappen wordt er een count matrix gemaakt (zie [count matrix](scripts/count%20matrix.R)), hierin staat hoeveel reads er per gen zijn geteld voor elk monster. 
+Na het mappen wordt er een count matrix gemaakt (zie [count matrix](scripts/count%20matrix.R)), hierin staat hoeveel reads er per gen zijn geteld voor elk monster hiervoor wordt . 
 Vervolgens is er een metadata tabel gemaakt waarin staat wat de condities zijn per monster (zie [metadata](scripts/metadata.R)).
 Daarna is er een differentiële genexpressie analyse uitgevoerd met DESeq2 om te bepalen of de genexpressie statistisch significant verschilt tussen de controlegroep en de groep met RA (zie [statistiek](scripts/statistiek.R)). 
 Hierna word een GO-analyse uitgevoerd (zie [GO-analyse](scripts/GO-analyse.R)).
