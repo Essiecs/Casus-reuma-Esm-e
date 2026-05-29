@@ -60,7 +60,7 @@ Documenten verwijderen
 ---
 
 Inleiden..
-In [deze tabel](figuren/ genexpressie%20tabel.csv) is te zien dat … de hoogste log2FoldChange heeft, … de laagste log2FoldChange en … de laagste p-waarde heeft
+In [deze tabel](figuren/genexpressie%20tabel.csv) is te zien dat … de hoogste log2FoldChange heeft, … de laagste log2FoldChange en … de laagste p-waarde heeft
 
 Na het uitvoeren van de differentiële genexpressie analyse is er een vulcano plot gemaakt met behulp van het [EnhancedVolcano](https://academic.oup.com/bioinformatics/article/41/7/btaf367/8171986?login=false&guestAccessKey=) (versie 1.30.0) package. In deze [vulcano plot](figuren/vulcano%20plot.png) zijn met rood de genen aangegeven die een p-waarde hebben van <0,05 en een log2 fold change hebben van kleiner dan -1 of groter dan 1.
 
