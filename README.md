@@ -19,11 +19,11 @@ ___
 **Inleiding**
 ---
 
-Reumatoïde Artritis (RA) is een auto-immuunziekte die 0,3-1% van de wereldbevolking krijgt en 2-3 keer vaker bij vrouwen voorkomt dan bij mannen. (Bron 1)
+Reumatoïde Artritis (RA) is een chronische auto-immuunziekte die 0,3-1% van de wereldbevolking krijgt en 2-3 keer vaker bij vrouwen voorkomt dan bij mannen (Bron 1).  Hierbij valt het immuunsysteem het eigen gewrichtsslijmvlies aan, wat leidt tot aanhoudende ontstekingen.
 Patiënten ervaren vaak pijn, stijfheid en zwelling in meerdere gewrichten, vaak aan beide kanten van het lichaam. (Bron 2)
-Er is geen duidelijke oorzaak, geen uniform ziekteverloop en er bestaat momenteel geen genezende behandeling. (Bron 1) 
+Er is geen duidelijke oorzaak, geen uniform ziekteverloop en er bestaat momenteel geen genezende behandeling (Bron 1). 
 Wel zijn er behandelingen die het proces kunnen remmen (bron 3).
-Omdat er nog zo veel onduidelijk is over RA is er behoeft aan een beter beeld van deze ziekte. Dit wordt in dit onderzoek gedaan door te kijken naar het verschil in genexpressie tussen de patiënten met RA en de controlegroep. Ook wordt er gekeken naar welke pathways een belangrijke rol spelen in het proces van RA.
+Omdat er nog zo veel onduidelijk is over RA is er behoefte aan een beter beeld van deze ziekte. Dit wordt in dit onderzoek gedaan door te kijken naar het verschil in genexpressie tussen de patiënten met RA en de controlegroep. Ook wordt er gekeken naar welke pathways een belangrijke rol spelen in het proces van RA.
 
 In dit onderzoek wordt er dan ook antwoord gegeven op de vraag: welke genen komen meer of minder tot expressie bij mensen met reumatoïde artritis, en welke metabole routes functioneren anders?
 
@@ -70,9 +70,12 @@ Uit de GO-analyse bleek het immunoglobulinecomplex (antilichamen) interessant te
 
 **Conclusie**
 ---
-In de pathway is te zien dat de genen IFNy, CD8 en KIR in de MHC I route meer tot expressie komen bij patiënten met RA. Dit zorgt voor verhoogde responsen van CD8 T-cellen en NK-cellen. Deze cellen spelen een belangrijke rol in het herkennen en vernietigen van cellen tijdens een ontstekingsreactie.
+Dit onderzoek laat zien dat er duidelijke verandering is in de expressie van genen die betrokken zijn bij het immuunsysteem.  
+
+In de pathway ‘antigen processing and presentation’ is te zien dat de genen IFNy, CD8 en KIR in de MHC I route meer tot expressie komen bij patiënten met RA. Dit zorgt voor verhoogde responsen van CD8 T-cellen en NK-cellen. Deze cellen spelen een belangrijke rol in het herkennen en vernietigen van cellen tijdens een ontstekingsreactie.
 In de MHC II route komen de genen HLA-DM, CTSB/L/S en MHCII meer tot expressie bij patiënten met RA. Deze genen zijn betrokken bij het presenteren van endocytose-antigenen aan CD4-T-cellen. De CD4-T-cellen produceren cytokines en activeren andere immuuncellen. Een verhoogde expressie hiervan zorgt voor een versterkte ontstekingsreactie. 
 
+Dit laat zien waarom deze pathway erg belangrijk is bij patiënten met RA. Door de verhoogde expressie in beide routes worden de T-cellen constant geactiveerd. De CD8 T-cellen en NK-cellen dragen bij aan schade aan het synoviale weefsel en de CD4 T-cellen zorgen voor chronische ontstekingen. 
 
 
 
