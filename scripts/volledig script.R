@@ -173,7 +173,7 @@ ggplot(top10, aes(x = numInCat/numDEInCat,
   labs(
     title = "Top 10 overgerepresenteerde GO-termen",
     y = "GO-term",
-    x = "in/dein"
+    x = "numInCat/numDEInCat"
   ) +
   scale_fill_discrete(
     name = "Ontologie",
