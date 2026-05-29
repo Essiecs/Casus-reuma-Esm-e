@@ -61,7 +61,7 @@ Titel aanpassen
 Inleiden..
 In deze tabel is te zien dat … de hoogste log2FoldChange heeft, … de laagste log2FoldChange en … de laagste p-waarde heeft
 
-In deze [vulcano plot](figuren/vulcano%20plot.png) zijn met rood de genen aangegeven die een p-waarde hebben van <0,05 en een log2 fold change hebben van kleiner dan -1 en groter dan 1.
+Na het uitvoeren van de differentiële genexpressie analyse is er een vulcano plot gemaakt met behulp van het [EnhancedVolcano](https://academic.oup.com/bioinformatics/article/41/7/btaf367/8171986?login=false&guestAccessKey=) (versie 1.30.0) package. In deze [vulcano plot](figuren/vulcano%20plot.png) zijn met rood de genen aangegeven die een p-waarde hebben van <0,05 en een log2 fold change hebben van kleiner dan -1 of groter dan 1.
 
 In deze [staafdiagram](figuren/GO-analyse.png) is te zien welke go term de kleinste verhouding heeft van numInCat/numDEInCat. Dit geeft aan dat in die categorie veel genen significant verschillend tot expressie komen in patiënten met RA in vergelijking met de controlegroep, in verhouding tot de hoeveelheid genen die in die categorie zitten. Dit geeft een goede richting aan voor het kiezen van een interessante pathway. 
 Uit de GO-analyse bleek het immunoglobulinecomplex (antilichamen) interessant te zijn, wat wijst op verhoogde antistof- en B-celactiviteit. Omdat B-cellen hiervoor afhankelijk zijn van T-helpercellen, en die weer geactiveerd worden via antigeenpresentatie, is gekozen voor de pathway ‘antigen processing and presentation’. Deze pathway is hier te zien: ![beschrijving](figuren/hsa04612.pathview.png)
