@@ -48,7 +48,6 @@ Hierna word een GO-analyse uitgevoerd met de [goseq]( https://ftp.acc.umu.se/mir
 Hiermee kan er gezien worden welke biologische processen en functies het meest afwijken in patiënten met RA. Deze informatie helpt bij het kiezen van relevante KEGG-pathways.
 Tot slot wordt de gekozen pathway gevisualiseerd (zie [pathway](scripts/pathway.R)), dit wordt gedaan met de package [pathview](https://academic.oup.com/bioinformatics/article/29/14/1830/232698?login=false&guestAccessKey=) (versie 1.52.0).
 
-Flowschema maken
 Hele script er nog inzetten
 Bronnen goed toevoegen
 Conclusie schrijven 
@@ -71,7 +70,7 @@ Uit de GO-analyse bleek het immunoglobulinecomplex (antilichamen) interessant te
 
 **Conclusie**
 ---
-
+In de pathway is te zien dat de genen IFNy, CD8 en KIR in de MHC I route meer tot expressie komen bij patiënten met RA. Dit zorgt voor verhoogde responsen van CD8 T-cellen en NK-cellen. Deze cellen spelen een belangrijke rol in het herkennen en vernietigen van cellen tijdens een ontstekingsreactie.
 
 
 
