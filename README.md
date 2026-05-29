@@ -1,18 +1,4 @@
 # Verhoogde expressie van de antigeenpresentatie route bij Reumatoïde Artritis bepaald via transcriptomics
-
-
-
-
-- Inleiding: +- 200 woorden met aanleiding, achtergrondinformatie en doelstel-
-ling. Bronnen (PDF) kunnen in een aparte folder met verwijzing.
-- Methode: +- 200 woorden met methode, flowschema. Zie leerdoelen voor mi-
-nimale inhoud. Scripts, data etc. kunnen in een aparte folder met verwijzing.
-- Resultaten: +- 200 woorden, inclusief correcte verwijzingen.
-- Conclusie: +- 200 woorden, inclusief aanbevelingen en onderzoek in context
-plaatsen.
-- Uitleg competentie beheren (zie voor hulpvragen het voorbeeld):
-o File (bijvoorbeeld een md file) met uitleg over Data Stewardship
-o File met uitleg over toepassing beheren met GitHu
 ___
 
 **Inleiding**
@@ -59,10 +45,9 @@ Documenten verwijderen
 **Resultaten**
 ---
 
-Inleiden..
-In [deze tabel](figuren/genexpressie%20tabel.csv) is te zien dat … de hoogste log2FoldChange heeft, … de laagste log2FoldChange en … de laagste p-waarde heeft
+In [deze tabel](figuren/genexpressie%20tabel.csv) is te zien dat IGHV3-53 de hoogste log2FoldChange heeft, MXRA7P1 de laagste log2FoldChange en ANKRD30BL de laagste p-waarde heeft.
 
-Na het uitvoeren van de differentiële genexpressie analyse is er een vulcano plot gemaakt met behulp van het [EnhancedVolcano](https://academic.oup.com/bioinformatics/article/41/7/btaf367/8171986?login=false&guestAccessKey=) (versie 1.30.0) package. In deze [vulcano plot](figuren/vulcano%20plot.png) zijn met rood de genen aangegeven die een p-waarde hebben van <0,05 en een log2 fold change hebben van kleiner dan -1 of groter dan 1.
+Na het uitvoeren van de differentiële genexpressie analyse is er een vulcano plot gemaakt met behulp van de [EnhancedVolcano](https://academic.oup.com/bioinformatics/article/41/7/btaf367/8171986?login=false&guestAccessKey=) (versie 1.30.0) package. In deze [vulcano plot](figuren/vulcano%20plot.png) zijn met rood de genen aangegeven die een p-waarde hebben van <0,05 en een log2 fold change hebben van kleiner dan -1 of groter dan 1.
 
 In deze [staafdiagram](figuren/GO-analyse.png) is te zien welke go term de kleinste verhouding heeft van numInCat/numDEInCat. Dit geeft aan dat in die categorie veel genen significant verschillend tot expressie komen in patiënten met RA in vergelijking met de controlegroep, in verhouding tot de hoeveelheid genen die in die categorie zitten. Dit geeft een goede richting aan voor het kiezen van een interessante pathway. 
 Uit de GO-analyse bleek het immunoglobulinecomplex (antilichamen) interessant te zijn, wat wijst op verhoogde antistof- en B-celactiviteit. Omdat B-cellen hiervoor afhankelijk zijn van T-helpercellen, en die weer geactiveerd worden via antigeenpresentatie, is gekozen voor de pathway ‘antigen processing and presentation’. Deze pathway is hier te zien: ![beschrijving](figuren/hsa04612.pathview.png)
