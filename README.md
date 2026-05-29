@@ -36,10 +36,7 @@ Tot slot wordt de gekozen pathway gevisualiseerd (zie [pathway](scripts/pathway.
 
 [Volledig script](scripts/volledig%20script.R)
 
-Competentie schrijven
-Genen invullen bij resultaten
 Tekst doorlezen+aanpassen
-Documenten verwijderen
 (eventueel kijken naar grote script maar hoeft niet persee)
 
 **Resultaten**
