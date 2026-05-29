@@ -1,6 +1,5 @@
-# Casus-reuma-Esm-e
+# Verhoogde expressie van de antigeenpresentatie route bij Reumatoïde Artritis bepaald via transcriptomics
 
-Reuma
 
 
 
@@ -50,7 +49,6 @@ Tot slot wordt de gekozen pathway gevisualiseerd (zie [pathway](scripts/pathway.
 
 Hele script er nog inzetten
 Bronnen goed toevoegen
-Conclusie schrijven 
 Competentie schrijven
 Foto toevoegen
 Titel aanpassen
@@ -76,6 +74,7 @@ In de pathway ‘antigen processing and presentation’ is te zien dat de genen IFNy
 In de MHC II route komen de genen HLA-DM, CTSB/L/S en MHCII meer tot expressie bij patiënten met RA. Deze genen zijn betrokken bij het presenteren van endocytose-antigenen aan CD4-T-cellen. De CD4-T-cellen produceren cytokines en activeren andere immuuncellen. Een verhoogde expressie hiervan zorgt voor een versterkte ontstekingsreactie. 
 
 Dit laat zien waarom deze pathway erg belangrijk is bij patiënten met RA. Door de verhoogde expressie in beide routes worden de T-cellen constant geactiveerd. De CD8 T-cellen en NK-cellen dragen bij aan schade aan het synoviale weefsel en de CD4 T-cellen zorgen voor chronische ontstekingen. 
+Er is dus duidelijk te zien dat de ‘antigen processing and presentation’ route anders tot expressie komt bij patiënten met RA. 
 
 
 
