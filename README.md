@@ -18,9 +18,9 @@ ___
 **Inleiding**
 ---
 
-Reumatoïde Artritis (RA) is een chronische auto-immuunziekte die 0,3-1% van de wereldbevolking krijgt en 2-3 keer vaker bij vrouwen voorkomt dan bij mannen (Bron 1).  Hierbij valt het immuunsysteem het eigen gewrichtsslijmvlies aan, wat leidt tot aanhoudende ontstekingen.
+Reumatoïde Artritis (RA) is een chronische auto-immuunziekte die 0,3-1% van de wereldbevolking krijgt en 2-3 keer vaker bij vrouwen voorkomt dan bij mannen ([Platzer et al., 2019](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0219698#abstract0)).  Hierbij valt het immuunsysteem het eigen gewrichtsslijmvlies aan, wat leidt tot aanhoudende ontstekingen.
 Patiënten ervaren vaak pijn, stijfheid en zwelling in meerdere gewrichten, vaak aan beide kanten van het lichaam. (Bron 2)
-Er is geen duidelijke oorzaak, geen uniform ziekteverloop en er bestaat momenteel geen genezende behandeling (Bron 1). 
+Er is geen duidelijke oorzaak, geen uniform ziekteverloop en er bestaat momenteel geen genezende behandeling ([Platzer et al., 2019](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0219698#abstract0)).  . 
 Wel zijn er behandelingen die het proces kunnen remmen (bron 3).
 Omdat er nog zo veel onduidelijk is over RA is er behoefte aan een beter beeld van deze ziekte. Dit wordt in dit onderzoek gedaan door te kijken naar het verschil in genexpressie tussen de patiënten met RA en de controlegroep. Ook wordt er gekeken naar welke pathways een belangrijke rol spelen in het proces van RA.
 
@@ -33,7 +33,7 @@ In dit onderzoek wordt er dan ook antwoord gegeven op de vraag: welke genen kome
 ![beschrijving](figuren/flowschema.png)
 
 #### Dataset 
-In dit onderzoek wordt gebruik gemaakt van samples van 4 mensen met RA en 4 mensen zonder RA, genomen uit synoviaal weefsel (weefsel dat de binnenkant van gewrichten bekleed). De reads zijn afkomstig uit een eerder onderzoek waarin ze gesequenced hebben via RNA-seq (bron 1).
+In dit onderzoek wordt gebruik gemaakt van samples van 4 mensen met RA en 4 mensen zonder RA, genomen uit synoviaal weefsel (weefsel dat de binnenkant van gewrichten bekleed). De reads zijn afkomstig uit een eerder onderzoek waarin ze gesequenced hebben via RNA-seq ([Platzer et al., 2019](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0219698#abstract0)).  .
 
 Met de (genexpressie) van deze (patiënten) kan er een pathway worden gemaakt waarin duidelijk het verschil te zien is tussen patiënten met RA en de controlegroep.
 
@@ -49,12 +49,12 @@ Tot slot wordt de gekozen pathway gevisualiseerd (zie [pathway](scripts/pathway.
 
 [Volledig script](scripts/volledig%20script.R)
 
-Hele script er nog inzetten
 Bronnen goed toevoegen
 Competentie schrijven
 Foto toevoegen
 Genen invullen bij resultaten
-
+Tekst doorlezen+aanpassen
+(eventueel kijken naar grote script maar hoeft niet persee)
 
 **Resultaten**
 ---
