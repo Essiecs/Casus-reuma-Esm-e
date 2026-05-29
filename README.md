@@ -46,12 +46,12 @@ Daarna is er een differentiële genexpressie analyse uitgevoerd met [DESeq2](http
 Hierna word een GO-analyse uitgevoerd met de [goseq]( https://ftp.acc.umu.se/mirror/bioconductor.org/packages/3.8/bioc/vignettes/goseq/inst/doc/goseq.pdf) package (versie 1.64.0)(zie [GO-analyse](scripts/GO-analyse.R)). [GCF_000001405.13]( https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.13/) is gebruikt als referentiegen. 
 Hiermee kan er gezien worden welke biologische processen en functies het meest afwijken in patiënten met RA. Deze informatie helpt bij het kiezen van relevante KEGG-pathways.
 Tot slot wordt de gekozen pathway gevisualiseerd (zie [pathway](scripts/pathway.R)), dit wordt gedaan met de package [pathview](https://academic.oup.com/bioinformatics/article/29/14/1830/232698?login=false&guestAccessKey=) (versie 1.52.0).
+[Volledig script](scripts/volledig%20script.r)
 
 Hele script er nog inzetten
 Bronnen goed toevoegen
 Competentie schrijven
 Foto toevoegen
-Naar ruwe data verwijzen
 Genen invullen bij resultaten
 
 
