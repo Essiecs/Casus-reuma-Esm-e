@@ -29,7 +29,9 @@ In dit onderzoek wordt er dan ook antwoord gegeven op de vraag: welke genen kome
 
 
 **Methode**
----
+---	
+
+![beschrijving](figuren/flowschema.png)
 
 #### Dataset 
 In dit onderzoek wordt gebruik gemaakt van samples van 4 mensen met RA en 4 mensen zonder RA, genomen uit synoviaal weefsel (weefsel dat de binnenkant van gewrichten bekleed). De reads zijn afkomstig uit een eerder onderzoek waarin ze gesequenced hebben via RNA-seq.(bron 1)
@@ -39,7 +41,7 @@ Met de (genexpressie) van deze (patiënten) kan er een pathway worden gemaakt waa
 #### Analyse
 De eerste stap is het indexeren van de reads, deze stap is niet noodzakelijk maar scheelt wel tijd. Vervolgens worden de reads gemapt met [Rsubread](https://academic.oup.com/nar/article/47/8/e47/5345150?luicode=10000011&lfid=231522type%3d1%26t%3d10%26q%3d%23bioinfo%23&u=https%3a%2f%2facademic.oup.com%2fnar%2farticle%2f47%2f8%2fe47%2f5345150&login=false) package (versie 2.26.0)(zie [indexeren+mappen](scripts/indexeren%20%2B%20mappen.R)).
 Tijdens het mappen worden de reads op de juiste positie in het referentiegenoom geplaatst. 
-Na het mappen wordt er een count matrix gemaakt (zie [count matrix](scripts/count%20matrix.R)), hierin staat hoeveel reads er per gen zijn geteld voor elk monster hiervoor wordt . 
+Na het mappen wordt er een count matrix gemaakt (zie [count matrix](scripts/count%20matrix.R)), hierin staat hoeveel reads er per gen zijn geteld voor elk monster. 
 Vervolgens is er een metadata tabel gemaakt waarin staat wat de condities zijn per monster (zie [metadata](scripts/metadata.R)).
 Daarna is er een differentiële genexpressie analyse uitgevoerd met [DESeq2](https://cdimage.debian.org/mirror/bioconductor.org/packages/3.3/bioc/vignettes/DESeq2/inst/doc/DESeq2.pdf) (versie 1.52.0) om te bepalen of de genexpressie statistisch significant verschilt tussen de controlegroep en de groep met RA (zie [statistiek](scripts/statistiek.R)). 
 Hierna word een GO-analyse uitgevoerd met de [goseq]( https://ftp.acc.umu.se/mirror/bioconductor.org/packages/3.8/bioc/vignettes/goseq/inst/doc/goseq.pdf) package (versie 1.64.0)(zie [GO-analyse](scripts/GO-analyse.R)). [GCF_000001405.13]( https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.13/) is gebruikt als referentiegen
@@ -53,6 +55,7 @@ Conclusie schrijven
 Competentie schrijven
 Foto toevoegen
 Titel aanpassen
+Naar ruwe data verwijzen
 
 
 **Resultaten**
