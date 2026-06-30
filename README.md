@@ -48,9 +48,7 @@ Uit de differentiele genexpressie analyse is een [vulcano plot](figuren/vulcano%
 
 In de [staafdiagram](figuren/GO-analyse.png) uit de GO-analyse is te zien dat het immunoglobulinecomplex (antlichamen) een relatief groot aantal genen bevat die verschillen in expressie tussen de groep met RA en de controlegroep. Daarom is de pathway Antigen processing and presentation (het nummer hier doen) bekeken. In figuur 2 is te zien dat de genen IFNy, CD8 en KIR in de MHC I route meer tot expressie komen bij patiënten met RA. In de MHC II route komen de genen HLA-DM, CTSB/L/S en MHCII meer tot expressie bij patiënten met RA. 
 
-In deze [staafdiagram](figuren/GO-analyse.png) is te zien welke go term de kleinste verhouding heeft van numInCat/numDEInCat. Dit geeft aan dat in die categorie veel genen significant verschillend tot expressie komen in patiënten met RA in vergelijking met de controlegroep, in verhouding tot de hoeveelheid genen die in die categorie zitten. Dit geeft een goede richting aan voor het kiezen van een interessante pathway. 
-
-Uit de GO-analyse bleek het immunoglobulinecomplex (antilichamen) interessant te zijn, wat wijst op verhoogde antistof- en B-celactiviteit. Omdat B-cellen hiervoor afhankelijk zijn van T-helpercellen, en die weer geactiveerd worden via antigeenpresentatie, is gekozen voor de pathway ‘antigen processing and presentation’. Deze pathway is hier te zien: ![beschrijving](figuren/hsa04612.pathview.png)
+![beschrijving](figuren/hsa04612.pathview.png)
 
 **Conclusie**
 ---
