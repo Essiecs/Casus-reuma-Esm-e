@@ -1,3 +1,0 @@
-|Gen|Functie|
-|----|-------|
-|IFNy|blabla|
