@@ -46,12 +46,26 @@ In [deze tabel](figuren/genexpressie%20tabel.csv) is te zien dat IGHV3-53 de hoo
 
 Uit de differentiele genexpressie analyse is een [vulcano plot](figuren/vulcano%20plot.png) gemaakt ([EnhancedVolcano](https://academic.oup.com/bioinformatics/article/41/7/btaf367/8171986?login=false&guestAccessKey=))(versie 1.30.0). Deze toont aan dat het grootste deel van de genen geen significante verandering in expressie laat zien (p-waarde > 0,05), een klein deel hiervan had ook nog een te lage fold change. Een grote groep had wel een p-waarde die klein genoeg is. opvallend is het gen ANKRD30BL, dit gen heeft zowel een hele kleine p-waarde als een grote log2 fold change. 
 
-In de [staafdiagram](figuren/GO-analyse.png) uit de GO-analyse is te zien dat het immunoglobulinecomplex (antlichamen) een relatief groot aantal genen bevat die verschillen in expressie tussen de groep met RA en de controlegroep. Daarom is de pathway `Antigen processing and presentation’ (hsa04612) bekeken. In figuur 2 is te zien dat de genen IFNy, CD8 en KIR in de MHC I route meer tot expressie komen bij patiënten met RA, deze genen zorgen voor verhoogde responsen van CD8 T-cellen en NK-cellen. In de MHC II route komen de genen HLA-DM, CTSB/L/S en MHCII meer tot expressie bij patiënten met RA, deze genen zijn betrokken bij het presenteren van endocytose-antigenen aan CD4-T-cellen. 
+In de [staafdiagram](figuren/GO-analyse.png) uit de GO-analyse is te zien dat het immunoglobulinecomplex (antlichamen) een relatief groot aantal genen bevat die verschillen in expressie tussen de groep met RA en de controlegroep. Daarom is de pathway `Antigen processing and presentation’ (hsa04612) bekeken. In figuur 2 is te zien dat de genen IFNy, CD8 en KIR in de MHC I route meer tot expressie komen bij patiënten met RA, deze genen zorgen voor verhoogde responsen van CD8 T-cellen en NK-cellen. Deze cellen spelen een belangrijke rol in het herkennen en vernietigen van cellen tijdens een ontstekingsreactie. In de MHC II route komen de genen HLA-DM, CTSB/L/S en MHCII meer tot expressie bij patiënten met RA, deze genen zijn betrokken bij het presenteren van endocytose-antigenen aan CD4-T-cellen. De CD4-T-cellen produceren cytokines en activeren andere immuuncellen. Een verhoogde expressie hiervan zorgt voor een versterkte ontstekingsreactie. 
+
 
 ![beschrijving](figuren/hsa04612.pathview.png)
 
 **Conclusie**
 ---
+Uit dit onderzoek blijkt dat de genen die betrokken zijn bij antigeenprocessing en -presentatie duidelijk anders tot expressie komen bij patiënten met RA dan bij gezonde personen. 
+
+Bij zowel MHC I als MHC II laten gerelateerde genen een verhoogde expressie zien bij patiënten met RA. Dit past bij het beeld van een overactief immuunsysteem bij RA. Deze kennis draagt bij aan een beter inzicht in de processen die betrokken zijn bij RA en zo bijdraagt aan mogelijke verdere ontwikkeling in toekomstige behandelingen. 
+
+Ook in toekomstig onderzoek kan transcriptomics een belangrijke rol spelen in het krijgen van een beter inzicht in deze ziekte.
+
+Deze bevindingen bevestigen dat antigeenprocessing en -presentatie een belangrijke rol spelen in de ontregeling van het immuunsysteem bij RA.
+
+
+
+
+
+
 Dit onderzoek laat zien dat er duidelijke verandering is in de expressie van genen die betrokken zijn bij het immuunsysteem.  
 
 In de pathway ‘antigen processing and presentation’ is te zien dat de genen IFNy, CD8 en KIR in de MHC I route meer tot expressie komen bij patiënten met RA. Dit zorgt voor verhoogde responsen van CD8 T-cellen en NK-cellen. Deze cellen spelen een belangrijke rol in het herkennen en vernietigen van cellen tijdens een ontstekingsreactie.
