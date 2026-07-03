@@ -56,39 +56,10 @@ In de [staafdiagram](figuren/GO-analyse.png) uit de GO-analyse is te zien dat he
 ---
 Uit dit onderzoek blijkt dat de genen die betrokken zijn bij antigeenprocessing en -presentatie duidelijk anders tot expressie komen bij patiënten met RA dan bij gezonde personen. 
 
-De vulcano plot liet zien dat er meerdere genen zijn die veranderen in expressie. Uit de GO-analyse is gebleken dat deze genen zich vooral bevinden in het immunoglobulinecomplex. Om deze reden is er gekeken naar de antigeenprocessing en presentatie.
+De vulcano plot liet zien dat er meerdere genen zijn die veranderen in expressie. Uit de GO-analyse is gebleken dat deze genen zich vooral bevinden in het immunoglobulinecomplex. Om deze reden is er gekeken naar de antigeenprocessing en presentatie pathway.
 
 Bij zowel MHC I als MHC II laten gerelateerde genen een verhoogde expressie zien bij patiënten met RA. Dit past bij het beeld van een overactief immuunsysteem bij RA. Deze kennis draagt bij aan een beter inzicht in de processen die betrokken zijn bij RA en zo bijdraagt aan mogelijke verdere ontwikkeling in toekomstige behandelingen. 
 
 Ook in toekomstig onderzoek kan transcriptomics een belangrijke rol spelen in het krijgen van een beter inzicht in deze ziekte.
 
 Deze bevindingen bevestigen dat antigeenprocessing en -presentatie een belangrijke rol spelen in de ontregeling van het immuunsysteem bij RA.
-
-
-
-
-
-
-
-
-Dit onderzoek laat zien dat er duidelijke verandering is in de expressie van genen die betrokken zijn bij het immuunsysteem.  
-
-In de pathway ‘antigen processing and presentation’ is te zien dat de genen IFNy, CD8 en KIR in de MHC I route meer tot expressie komen bij patiënten met RA. Dit zorgt voor verhoogde responsen van CD8 T-cellen en NK-cellen. Deze cellen spelen een belangrijke rol in het herkennen en vernietigen van cellen tijdens een ontstekingsreactie.
-In de MHC II route komen de genen HLA-DM, CTSB/L/S en MHCII meer tot expressie bij patiënten met RA. Deze genen zijn betrokken bij het presenteren van endocytose-antigenen aan CD4-T-cellen. De CD4-T-cellen produceren cytokines en activeren andere immuuncellen. Een verhoogde expressie hiervan zorgt voor een versterkte ontstekingsreactie. 
-
-Dit laat zien waarom deze pathway erg belangrijk is bij patiënten met RA. Door de verhoogde expressie in beide routes worden de T-cellen constant geactiveerd. De CD8 T-cellen en NK-cellen dragen bij aan schade aan het synoviale weefsel en de CD4 T-cellen zorgen voor chronische ontstekingen. 
-Er is dus duidelijk te zien dat de ‘antigen processing and presentation’ route anders tot expressie komt bij patiënten met RA. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
