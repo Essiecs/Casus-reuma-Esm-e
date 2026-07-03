@@ -18,6 +18,7 @@ In dit onderzoek wordt er dan ook antwoord gegeven op de vraag: Welke genen kome
 ---	
 
 ![beschrijving](figuren/flowschema2.png)
+_Figuur 1: flowschema van de volledige analyse._
 
 #### Dataset 
 In dit onderzoek is gebruik gemaakt van samples van 4 mensen met RA en 4 mensen zonder RA, genomen uit synoviaal weefsel (weefsel dat de binnenkant van gewrichten bekleed) (zie [metadata tabel](figuren/metadata%20tabel.md)). De reads zijn afkomstig uit een eerder onderzoek waarin ze gesequenced zijn via RNA-seq ([Platzer et al., 2019](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0219698#abstract0)). 
