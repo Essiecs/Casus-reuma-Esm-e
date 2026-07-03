@@ -52,6 +52,7 @@ In de [staafdiagram](figuren/GO-analyse.png) uit de GO-analyse is te zien dat he
 
 
 ![beschrijving](figuren/hsa04612.pathview.png)
+_<sub>Figuur 2: Visualisatie van de KEGG-pathway `Antigen processing and presentation’ (hsa04612), rode geeft aan dat de expressie van het gen omhoog is gegaan bij patiënten met RA en groen geeft aan dat de expressie van het gen omlaag is gegaan bij patiënten met RA.</sub>_
 
 **Conclusie**
 ---
