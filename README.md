@@ -59,7 +59,6 @@ _<sub>Figuur 2: Visualisatie van de KEGG-pathway `Antigen processing and present
 Uit dit onderzoek blijkt dat de genen die betrokken zijn bij antigeenprocessing en -presentatie duidelijk anders tot expressie komen bij patiënten met RA dan bij gezonde personen. 
 
 De vulcano plot liet zien dat er meerdere genen zijn die veranderen in expressie. Uit de GO-analyse is gebleken dat deze genen zich vooral bevinden in het immunoglobulinecomplex. Om deze reden is er gekeken naar de antigeenprocessing en presentatie pathway.
-
 Bij zowel MHC I als MHC II laten gerelateerde genen een verhoogde expressie zien bij patiënten met RA. Dit past bij het beeld van een overactief immuunsysteem bij RA. Deze kennis draagt bij aan een beter inzicht in de processen die betrokken zijn bij RA en zo bijdraagt aan mogelijke verdere ontwikkeling in toekomstige behandelingen. 
 
 Ook in toekomstig onderzoek kan transcriptomics een belangrijke rol spelen in het krijgen van een beter inzicht in deze ziekte.
