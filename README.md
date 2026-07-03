@@ -18,7 +18,7 @@ In dit onderzoek wordt er dan ook antwoord gegeven op de vraag: Welke genen kome
 ---	
 
 ![beschrijving](figuren/flowschema2.png)
-_<sub>Figuur 1: flowschema van de volledige analyse.</sub>_
+_<sub>Figuur 1: Schematisch overzicht van de volledige analyse.</sub>_
 
 #### Dataset 
 In dit onderzoek is gebruik gemaakt van samples van 4 mensen met RA en 4 mensen zonder RA, genomen uit synoviaal weefsel (weefsel dat de binnenkant van gewrichten bekleed) (zie [metadata tabel](figuren/metadata%20tabel.md)). De reads zijn afkomstig uit een eerder onderzoek waarin ze gesequenced zijn via RNA-seq ([Platzer et al., 2019](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0219698#abstract0)). 
@@ -27,7 +27,7 @@ Met de genexpressie van deze patiënten is er een pathway gemaakt dat duidelijk h
 
 #### Analyse
 De analyse is uitgevoerd met RStudio (versie 4.6.0).
-Eerst zijn de reads geïndexeerd, deze stap is niet noodzakelijk maar scheelt wel tijd. Vervolgens zijn de reads gemapt met [Rsubread](https://academic.oup.com/nar/article/47/8/e47/5345150?luicode=10000011&lfid=231522type%3d1%26t%3d10%26q%3d%23bioinfo%23&u=https%3a%2f%2facademic.oup.com%2fnar%2farticle%2f47%2f8%2fe47%2f5345150&login=false) package (versie 2.26.0)(zie [indexeren+mappen](scripts/indexeren%20%2B%20mappen.R)).
+Eerst zijn de reads geïndexeerd, deze stap is optioneel om de maptijd te verkorten. Vervolgens zijn de reads gemapt met [Rsubread](https://academic.oup.com/nar/article/47/8/e47/5345150?luicode=10000011&lfid=231522type%3d1%26t%3d10%26q%3d%23bioinfo%23&u=https%3a%2f%2facademic.oup.com%2fnar%2farticle%2f47%2f8%2fe47%2f5345150&login=false) package (versie 2.26.0)(zie [indexeren+mappen](scripts/indexeren%20%2B%20mappen.R)).
 Tijdens het mappen zijn de reads op de juiste positie in het referentiegenoom geplaatst. 
 Na het mappen is er een count matrix gemaakt (zie [count matrix](scripts/count%20matrix.R)), hierin staat hoeveel reads er per gen zijn geteld voor elk monster. 
 Vervolgens is er een metadata tabel gemaakt waarin staat wat de condities zijn per monster (zie [metadata](scripts/metadata.R)).
@@ -52,7 +52,7 @@ In de [staafdiagram](figuren/GO-analyse.png) uit de GO-analyse is te zien dat he
 
 
 ![beschrijving](figuren/hsa04612.pathview.png)
-_<sub>Figuur 2: Visualisatie van de KEGG-pathway `Antigen processing and presentation’ (hsa04612), rode geeft aan dat de expressie van het gen omhoog is gegaan bij patiënten met RA en groen geeft aan dat de expressie van het gen omlaag is gegaan bij patiënten met RA.</sub>_
+_<sub>Figuur 2: Visualisatie van de KEGG-pathway `Antigen processing and presentation’ (hsa04612), rood geeft aan dat de expressie van het gen omhoog is gegaan bij patiënten met RA en groen geeft aan dat de expressie van het gen omlaag is gegaan bij patiënten met RA.</sub>_
 
 **Conclusie**
 ---
